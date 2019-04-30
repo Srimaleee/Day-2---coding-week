@@ -1,0 +1,80 @@
+h1 {
+  font-size: 40px;
+  color: azure;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 32px;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 100%;
+}
+
+#myquote {
+  margin: 2vh 5vh;
+}
+
+header {
+  background-color: rgb(26, 138, 203);
+  border-radius: 10px;
+  line-height: 1.5;
+  min-height: 15vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main {
+  background-image: url(http://cedricmarchal.eu/wp-content/uploads/2018/12/pexels-photo-414612.jpeg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 20px 15px;
+  border-radius: 6px;
+  padding: 40px 10px;
+  margin-top: 20px;
+}
+
+a {
+  margin: 20px;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.colonne {
+  display: flex;
+  flex-direction: column;
+}
